@@ -1,50 +1,64 @@
-# Facebook Clone - Gabriel
+# Projeto Comentários - React
 
-Projeto de estudo feito para praticar **HTML e CSS**. Trata-se de uma página inspirada no Facebook, com foco no aprendizado de estilização e layout responsivo.
+Um projeto simples de comentários feito em **React**, onde é possível escrever, enviar e visualizar comentários.
 
 ## 🌐 Visualização Online
 
-Você pode ver o projeto no ar [aqui](https://face-gabriel.netlify.app/).
+O projeto está online no Netlify: [comentario-gabriel-frontend](https://comentario-gabriel-frontend.netlify.app)
 
-## 💻 Tecnologias utilizadas
+## 💻 Tecnologias
 
-- HTML5  
-- CSS3  
+* React
+* Styled-components
+* CSS
+* JavaScript (ES6+)
 
-## 📂 Estrutura do projeto
+## 🚀 Como rodar o projeto
 
-```text
-facebook-clone/
-│
-├─ index.html        # Página principal
-├─ login.css         # Arquivo de estilos
-└─ README.md         # Este arquivo
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/GabrielITsMagicTest/comentarios-test-react.git
 ```
 
-## 🎨 Funcionalidades
+2. Entre na pasta do projeto:
 
-- Layout semelhante ao Facebook na página de login.  
-- Formulário de login com campos de email e senha.  
-- Botões de ação: "Entrar" e "Criar nova conta".  
-- Seção de idiomas e links de navegação.  
-- Responsivo para diferentes tamanhos de tela.  
+```bash
+cd comentarios-test-react
+```
 
-## 🚀 Objetivo do projeto
+3. Instale as dependências:
 
-- Praticar **CSS moderno** e **posicionamento de elementos**.  
-- Criar uma interface limpa e responsiva.  
-- Aprender a estruturar formulários e listas de links.
+```bash
+npm install
+```
+
+4. Rode o projeto:
+
+```bash
+npm start
+```
+
+5. Abra [http://localhost:3000](http://localhost:3000) no navegador.
+
+## 🌟 Funcionalidades
+
+* Escrever comentários em um textarea.
+* Enviar comentários clicando no botão.
+* Visualizar todos os comentários em uma lista.
+* Botão ativado/desativado dependendo se há texto no textarea.
+
+## 📝 Observações
+
+* O projeto usa **React Hooks** (`useState`) para gerenciar o estado dos comentários.
+* Estilos centralizados usando **styled-components**.
+* Imagens armazenadas na pasta `img/`.
 
 ## 📖 Aprendizados
 
-- Uso de flexbox e grid para layout.  
-- Estilização de formulários e botões.  
-- Criação de hierarquia visual com CSS.  
-- Organização de HTML semântico.  
-
-## 👨‍💻 Como contribuir
-
-Este é um projeto pessoal de aprendizado, mas você pode **forkar** e sugerir melhorias no design ou na responsividade.
+* Criação de formulários controlados em React.
+* Uso de arrays e `.map()` para renderizar listas dinamicamente.
+* Separação de lógica e estilos para organização do código.
 
 # ignore: Getting Started with Create React App
 
