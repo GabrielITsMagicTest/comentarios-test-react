@@ -4,7 +4,7 @@ Projeto de estudo feito para praticar **HTML e CSS**. Trata-se de uma página in
 
 ## 🌐 Visualização Online
 
-Você pode ver o projeto no ar [aqui](COLOQUE_AQUI_O_LINK_ONLINE).
+Você pode ver o projeto no ar [aqui](https://face-gabriel-454545.netlify.app/).
 
 ## 💻 Tecnologias utilizadas
 
