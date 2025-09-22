@@ -12,15 +12,17 @@ function App() {
 
   function hadleClickButton(event) {
     setAllComents([...allComents, coment]);
+    setComent('')
   }
+
   return (
     <Container>
       <img src={Image} alt='pessoas'></img>
-      <textarea onChange={hadleTextArea}></textarea>
-      <Button isOn={coment} onClick={hadleClickButton}>Comentar</Button>
+      <textarea placeholder='Comentario' value={coment} onChange={hadleTextArea}></textarea>
+      <Button $ison={coment} onClick={hadleClickButton}>Comentar</Button>
       <ul>
-        {allComents.map((comentLi) => (
-          <li>{comentLi}</li>
+        {allComents.map((comentLi, index) => (
+          <li key={index}>{comentLi}</li>
         ))}
       </ul>
     </Container>

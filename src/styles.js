@@ -5,7 +5,7 @@ export const Container = styled.div `
     max-width: 360px;
     height: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 60px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,6 +21,7 @@ export const Container = styled.div `
         margin-top: 50px;
         margin-bottom: 25px;
         padding: 15px;
+        background-color: white;
     }
 
     ul {
@@ -41,13 +42,14 @@ export const Container = styled.div `
 `
 
 export const Button = styled.button `
-    background-color: ${ props => props.isOn ? '#000000' : 'gray'};
+    background-color: ${ (props) => props.$ison ? '#000000' : 'gray'};
     border-radius: 10px;
     width: 100%;
     height: 64px;
     color: white;
     border: none;
-    pointer-events: ${ props => props.isOn ? 'auto' : 'none'};
+    cursor: pointer;
+    pointer-events: ${ (props) => props.$ison ? 'auto' : 'none'};
 
     &:active {
         background-color: gray;
